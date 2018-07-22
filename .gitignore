@@ -1,0 +1,35 @@
+#git 忽视的文件 不会检查这些文件
+*.class
+
+#package file
+#没有*.jar因为支付宝的jar包中央仓库没有要一起提交
+*.war
+*.ear
+
+#kdiff3 ignore
+.orig
+#maven
+target/
+
+#eclipse
+.settings/
+.project
+.classpatch
+
+#idea
+.idea/
+/idea/
+*.ipr
+*.iml
+*.iws
+
+#temp file
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system
+.DS_Store
+Thumbs.db
